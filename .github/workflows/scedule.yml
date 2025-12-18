@@ -4,6 +4,6 @@ on:
     - cron: '*/1 * * * *'
 jobs:
   run:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - run: date
